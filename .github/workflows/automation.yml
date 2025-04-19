@@ -2,7 +2,7 @@ name: Automation
 on:
   push:
     branches:
-      - master
+      - main
   workflow_dispatch:
 jobs:
   job1:
@@ -10,4 +10,3 @@ jobs:
     steps:
       - name: Print Hello World
         run: echo "Hello World"
-        
